@@ -1,0 +1,15 @@
+NAME "Fluid Extractors Automation"
+
+Every tick do
+    input fe:: from cube BOTTOM SIDE
+    output fe:: to extractors
+end
+
+EVERY 20 TICKS DO
+    -- on their own, input statements do nothing
+    -- there is no item buffer
+    INPUT fluid:: FROM extractors
+
+    -- all the magic happens here
+    OUTPUT fluid:: TO drawer
+END
