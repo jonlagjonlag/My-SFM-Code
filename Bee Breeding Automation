@@ -1,0 +1,24 @@
+Name "Bee Breeding Automation"
+
+Every tick do
+    Input fe:: from Cube BOTTOM SIDE
+    Output fe:: to Breeder, Incubator
+End
+
+Every 20 ticks do
+    Input chorus_flower from Interface
+    Output retain 16 to each Breeder slots 3
+    Output retain 16 to each Breeder slots 4
+Forget
+    Input bee_cage from Interface
+    Output to Breeder slots 0
+Forget
+    Input honey_treat from Interface
+    Output retain 64 to Incubator slots 1
+Forget
+    Input from Breeder slots 5
+    Output to Incubator
+Forget
+    Input from Incubator slots 2
+    Output to Interface
+End
