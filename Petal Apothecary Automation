@@ -1,0 +1,11 @@
+Name "Petal Apothecary Automation"
+
+Every 20 ticks do
+    Input from InputBarrel slots 1-26
+    Output to HopperBarrel
+End
+
+Every 40 ticks do
+    Input from InputBarrel slots 0
+    Output to HopperBarrel
+End
