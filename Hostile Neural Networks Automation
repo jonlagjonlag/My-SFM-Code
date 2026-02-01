@@ -1,0 +1,18 @@
+Name "Hostile Neural Networks Automation"
+
+Every tick do
+    Input fe:: from Cube BOTTOM SIDE
+    Output fe:: to Power
+End
+
+Every redstone pulse do
+    Input from Matrix_Drawer
+    Output to Simulators
+Forget
+    Input from Simulators
+    Output RETAIN 2 hostilenetworks:prediction to EACH Fabricators
+    Output to Predictions_Drawer
+Forget
+    Input from Fabricators
+    Output to Interface
+End
