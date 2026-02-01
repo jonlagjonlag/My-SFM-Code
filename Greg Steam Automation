@@ -1,0 +1,24 @@
+Name "Greg Steam Automation"
+
+Every redstone pulse do
+
+input fluid::water from Sink
+output fluid::water to Boilers
+forget
+
+end
+
+Every redstone pulse do
+
+    input fluid:: from Boilers
+    output fluid:: to SteamDrawer BOTTOM SIDE
+    forget
+
+    input fluid:: from SteamDrawer
+    output fluid:: to Machines
+    forget
+
+    input from Machines BOTTOM SIDE
+    output to Controller
+
+end
