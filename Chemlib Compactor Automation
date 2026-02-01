@@ -1,0 +1,14 @@
+Name "Chemlib Compactor Automation"
+
+Every tick do
+    Input fe:: from Interface
+    Output fe:: to Compactors
+End
+
+Every 20 ticks do
+    Input from Interface
+    Output to Compactors
+Forget
+    Input from Compactors
+    Output to Interface
+End
