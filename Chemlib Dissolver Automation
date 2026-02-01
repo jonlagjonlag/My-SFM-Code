@@ -1,0 +1,14 @@
+Name "Chemlib Dissolver Automation"
+
+Every tick do
+    input fe:: from Interface BOTTOM SIDE
+    output fe:: to Dissolver BOTTOM SIDE
+end
+
+Every 20 ticks do
+    input from Interface
+    output to Dissolver
+forget
+    input from Dissolver
+    output to Controller
+end
