@@ -1,0 +1,33 @@
+Name "Rune Replacer"
+
+Every 20 ticks do
+
+    Input rune_pride from Runes
+    Output to Pride
+Forget
+
+    Input rune_wrath from Runes
+    Output to Wrath
+Forget
+
+    Input nidavellir_rune from Runes
+    Output to Nidavellir
+Forget
+
+    Input asgard_rune from Runes
+    Output to Asgard
+Forget
+
+    Input joetunheim_rune from Runes
+    Output to Joetunheim
+Forget
+
+    Input rune_air from Runes
+    Output to Air
+Forget
+
+    Input rune_earth from Runes
+    Output to Earth
+Forget
+
+End
