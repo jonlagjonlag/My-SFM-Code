@@ -1,0 +1,11 @@
+NAME "Soul Binder Automation"
+
+EVERY redstone pulse DO
+
+    INPUT enderio:filled_soul_vial FROM a
+    OUTPUT TO b slots 0
+    forget
+
+    INPUT EXCEPT enderio:filled_soul_vial FROM a
+    OUTPUT to b slots 1
+END
