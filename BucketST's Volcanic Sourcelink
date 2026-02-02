@@ -1,0 +1,10 @@
+NAME "BucketSt's Volcanic Sourcelink"
+EVERY 20G+19 TICKS DO
+    INPUT FROM Drawer
+    OUTPUT TO Pedestal
+END
+
+EVERY 20G+1 TICKS DO
+    INPUT bucket FROM Pedestal
+    OUTPUT bucket TO Tank BOTTOM SIDE
+END
