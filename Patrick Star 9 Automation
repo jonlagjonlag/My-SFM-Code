@@ -1,0 +1,28 @@
+Name "Patrick Star 9 Automation"
+
+Every 20 ticks do
+
+    Input pink_concrete from Import
+    Output to Pink_Concrete
+Forget
+    Input pink_concrete_powder from Import
+    Output to Pink_Concrete_Powder
+Forget
+    Input magenta_concrete from Import
+    Output to Magenta_Concrete
+Forget
+    Input magenta_concrete_powder from Import
+    Output to Magenta_Concrete_Powder
+Forget
+    Input green_concrete from Import
+    Output to Green_Concrete
+Forget
+    Input green_concrete_powder from Import
+    Output to Green_Concrete_Powder
+Forget
+    Input lime_concrete from Import
+    Output to Lime_Concrete
+Forget
+    Input from Export
+    Output to Provider
+End
