@@ -1,0 +1,22 @@
+Name "Creative Motor 9 Automation"
+
+Every 20 ticks do
+
+    Input *gearbox from Import
+    Output to Gearbox
+Forget
+    Input *atm_star from Import
+    Output to ATMStar
+Forget
+    Input *shaft from Import
+    Output to Shaft
+Forget
+    Input *large_cogwheel from Import
+    Output to LargeCogwheel
+Forget
+    Input create:cogwheel from Import
+    Output to Cogwheel
+Forget
+    Input from Export
+    Output to Provider
+End
