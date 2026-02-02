@@ -1,0 +1,16 @@
+Name "Crushing Wheels Automation"
+
+Every 20 ticks do
+
+    Input *andesite_alloy from Import
+    Output to Alloy
+Forget
+    Input *planks from Import
+    Output to Planks
+Forget
+    Input *stone from Import
+    Output to Stone
+Forget
+    Input from Export
+    Output to Provider
+End
