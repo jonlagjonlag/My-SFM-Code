@@ -1,0 +1,49 @@
+Name "ATM Star 9 Automation"
+
+Every 20 ticks do
+
+    Input *unobtainium_a* from Import
+    Output to UnAl
+Forget
+    Input *unobtainium_v* from Import
+    Output to UnVi
+Forget
+    Input *nether_star* from Import
+    Output to NetherStars
+Forget
+    Input *oblivion* from Import
+    Output to Oblivion
+Forget
+    Input *dragon* from Import
+    Output to Dragon
+Forget
+    Input *wither* from Import
+    Output to Wither
+Forget
+    Input *black* from Import
+    Output to BlackHole
+Forget
+    Input *nexium* from Import
+    Output to NexiumEmitter
+Forget
+    Input *patrick* from Import
+    Output to Patrick
+Forget
+    Input *dimensional* from Import
+    Output to DimSeed
+Forget
+    Input *philosopher* from Import
+    Output to PhilFuel
+Forget
+    Input *improbable* from Import
+    Output to Improbable
+Forget
+    Input *creative* from Import
+    Output to Creative
+Forget
+    Input *atm_star_shard* from Import
+    Output to Shards
+Forget
+    Input from Export
+    Output to Provider
+End
